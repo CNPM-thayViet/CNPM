@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLiNhaHang.GUI
 {
-    public partial class FrmAdmin : Form
+    public partial class frmBaoCaoDoanhThu : Form
     {
-        public FrmAdmin()
+        public frmBaoCaoDoanhThu()
         {
             InitializeComponent();
         }
 
+        private void dtpto_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
